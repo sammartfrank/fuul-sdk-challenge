@@ -1,8 +1,7 @@
 'use client';
 
 import { useSDK } from '@metamask/sdk-react';
-import { useCallback, useState } from 'react';
-
+import { useState } from 'react';
 import { NFT } from 'full-sdk/types';
 
 import { Referral } from '@/components/Referral';

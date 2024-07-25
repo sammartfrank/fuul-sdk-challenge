@@ -27,7 +27,6 @@ export function Referral({
 }) {
   const handleCloseDialog = useCallback(() => setIsOpen(false), [setIsOpen]);
   if (!account) return;
-
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogContent className='sm:max-w-[640px]'>
